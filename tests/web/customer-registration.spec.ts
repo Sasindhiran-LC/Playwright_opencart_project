@@ -12,7 +12,7 @@
 import { test, expect } from '../../fixtures/pageFixtures';
 import { RandomDataUtil } from '../../utils/dataGenerator';
 
-test('Customer registration test @master @sanity @regression @web', async ({homePage}) => {
+test('Customer registration test @master @sanity @regression @web @e2e', async ({homePage}) => {
   const firstName = RandomDataUtil.getFirstName();
   const lastName = RandomDataUtil.getLastName();
   const email = `registration-${Date.now()}-${RandomDataUtil.getEmail()}`.toLowerCase();

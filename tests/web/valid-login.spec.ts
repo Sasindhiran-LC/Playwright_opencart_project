@@ -12,7 +12,7 @@
 import { test, expect } from '../../fixtures/pageFixtures';
 import { RandomDataUtil } from '../../utils/dataGenerator';
 
-test('Valid customer login test @master @sanity @regression @web', async ({ homePage }) => {
+test('Valid customer login test @master @sanity @regression @web @e2e', async ({ homePage }) => {
   const email = `login-${Date.now()}-${RandomDataUtil.getEmail()}`;
   const password = RandomDataUtil.getPassword(12);
 
