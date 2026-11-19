@@ -7,7 +7,7 @@ node_modules/
 /docs/
 
 # Environment & secrets
-. env
+.env
 
 
 #Playwright test artifacts
