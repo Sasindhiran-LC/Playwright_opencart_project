@@ -20,7 +20,7 @@ on:
           - test:api
           - test:web
           - test:datadriven
-        default: "test:e2e"
+        default: "test:end-to-end"
       browser:
         description: "Select browser"
         type: choice
